@@ -25,3 +25,4 @@ for i in data:
 print(len(payload))
 payload = str(payload).replace("[", "{").replace("]", "}")
 pyperclip.copy(payload)
+ 
